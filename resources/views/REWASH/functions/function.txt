@@ -1,0 +1,51 @@
+
+$zones = \App\Models\REWASH\Zone::get();
+   
+   $data = $request->all();
+
+
+  $zones = Zone::orderby('id','DESC')
+
+  ->where(function ($query) use ($data) {
+
+ 
+  if(isset($data['zone_ai']) &&  $data['zone_ai'] != null ){
+                   $query->where('zone_ai' , 'like'  , '%' .$data['zone_ai']. '%' );   
+               }
+
+                
+  if(isset($data['id']) &&  $data['id'] != null ){
+                   $query->where('id' , 'like'  , '%' .$data['id']. '%' );   
+               }
+
+                
+  if(isset($data['name']) &&  $data['name'] != null ){
+                   $query->where('name' , 'like'  , '%' .$data['name']. '%' );   
+               }
+
+                
+  if(isset($data['en_name']) &&  $data['en_name'] != null ){
+                   $query->where('en_name' , 'like'  , '%' .$data['en_name']. '%' );   
+               }
+
+                
+  if(isset($data['created_at']) &&  $data['created_at'] != null ){
+                   $query->where('created_at' , 'like'  , '%' .$data['created_at']. '%' );   
+               }
+
+                
+  if(isset($data['updated_at']) &&  $data['updated_at'] != null ){
+                   $query->where('updated_at' , 'like'  , '%' .$data['updated_at']. '%' );   
+               }
+
+                
+ 
+ })
+  ->paginate(50);
+
+return view('REWASH.zones.zones')
+
+->with('zones',$zones)
+;
+
+//searchfun

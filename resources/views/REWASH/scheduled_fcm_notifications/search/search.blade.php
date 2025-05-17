@@ -1,0 +1,102 @@
+ <div class="col-12">
+<div class="card mb-4">
+  <div class="card-body">
+    <h4 class="card-title">{{ __('Filters') }}</h4>
+                <form action="{{ route('scheduled_fcm_notifications.index') }}" method="GET">
+                    <div class="row">
+
+                                          <div class="col-12 col-sm-6 col-lg-3">
+                                                <label for="scheduled_fcm_notifications-list-id">{{ __('scheduled_fcm_notifications_id') }}</label>
+                                                <fieldset class="form-group">
+                                                    <input class="form-control" name="id" type="number" value="{{ request()->id }}"  placeholder="{{ __('scheduled_fcm_notifications_id') }}"  />
+
+                                                </fieldset>
+                                            </div>
+
+                                          <div class="col-12 col-sm-6 col-lg-3">
+                                                <label for="scheduled_fcm_notifications-list-title">{{ __('scheduled_fcm_notifications_title') }}</label>
+                                                <fieldset class="form-group">
+                                                    <input class="form-control" name="title" value="{{ request()->title }}"  type="text" placeholder="{{ __('scheduled_fcm_notifications_title') }}"  />
+
+                                                </fieldset>
+                                            </div>
+
+                                          <div class="col-12 col-sm-6 col-lg-3">
+                                                <label for="scheduled_fcm_notifications-list-notification">{{ __('scheduled_fcm_notifications_notification') }}</label>
+                                                <fieldset class="form-group">
+                                                    <input class="form-control" name="notification" value="{{ request()->notification }}"  type="text" placeholder="{{ __('scheduled_fcm_notifications_notification') }}"  />
+
+                                                </fieldset>
+                                            </div>
+
+                                          <div class="col-12 col-sm-6 col-lg-3">
+                                                <label for="scheduled_fcm_notifications-list-start_date">{{ __('scheduled_fcm_notifications_start_date') }}</label>
+                                                <fieldset class="form-group">
+                                                    <input class="form-control" name="start_date" type="date" value="{{ request()->start_date }}"  />
+
+                                                </fieldset>
+                                            </div>
+
+                                          <div class="col-12 col-sm-6 col-lg-3">
+                                                <label for="scheduled_fcm_notifications-list-end_date">{{ __('scheduled_fcm_notifications_end_date') }}</label>
+                                                <fieldset class="form-group">
+                                                    <input class="form-control" name="end_date" type="date" value="{{ request()->end_date }}"  />
+
+                                                </fieldset>
+                                            </div>
+
+                                          <div class="col-12 col-sm-6 col-lg-3">
+                                                <label for="scheduled_fcm_notifications-list-time">{{ __('scheduled_fcm_notifications_time') }}</label>
+                                                <fieldset class="form-group">
+                                                    <input class="form-control" name="time" value="{{ request()->time }}"  type="text" placeholder="{{ __('scheduled_fcm_notifications_time') }}"  />
+
+                                                </fieldset>
+                                            </div>
+
+                                          <div class="col-12 col-sm-6 col-lg-3">
+                                                <label for="scheduled_fcm_notifications-list-neighborhood_ids">{{ __('scheduled_fcm_notifications_neighborhood_ids') }}</label>
+                                                <fieldset class="form-group">
+                                                    <input class="form-control" name="neighborhood_ids" value="{{ request()->neighborhood_ids }}"  type="text" placeholder="{{ __('scheduled_fcm_notifications_neighborhood_ids') }}"  />
+
+                                                </fieldset>
+                                            </div>
+
+                                          <div class="col-12 col-sm-6 col-lg-3">
+                                                <label for="scheduled_fcm_notifications-list-for_all_users">{{ __('scheduled_fcm_notifications_for_all_users') }}</label>
+                                                <fieldset class="form-group">
+                                                    <select  name="for_all_users" class="form-control" id="scheduled_fcm_notifications-list-for_all_users">
+
+                                                        <option value="all" @if(request()->for_all_users == 'all') selected @endif >{{ __('All') }}</option>
+                                                        <option value="1" @if(request()->for_all_users == '1') selected @endif >{{ __('YES') }}</option>
+                                                        <option value="0" @if(request()->for_all_users == '0') selected @endif >{{ __('NO') }}</option>
+
+
+
+                                                    </select>
+                                                </fieldset>
+                                            </div>
+
+                                          <div class="col-12 col-sm-6 col-lg-3">
+                                                <label for="scheduled_fcm_notifications-list-created_at">{{ __('scheduled_fcm_notifications_created_at') }}</label>
+                                                <fieldset class="form-group">
+                                                    <input class="form-control" name="created_at" type="date" value="{{ request()->created_at }}"  />
+
+                                                </fieldset>
+                                            </div>
+
+                                          <div class="col-12 col-sm-6 col-lg-3">
+                                                <label for="scheduled_fcm_notifications-list-updated_at">{{ __('scheduled_fcm_notifications_updated_at') }}</label>
+                                                <fieldset class="form-group">
+                                                    <input class="form-control" name="updated_at" type="date" value="{{ request()->updated_at }}"  />
+
+                                                </fieldset>
+                                            </div>
+ <div class=" mt-3">
+                                                <button type="submit" class="btn btn-info" >{{ __('Find') }}</button>
+                                                <a href="{{ route('scheduled_fcm_notifications.index') }}" class="btn btn-link" >{{ __('Reset') }}</a>
+                                            </div>
+            </div>
+                                    </form>
+                                </div>
+                            </div>
+                              </div>
