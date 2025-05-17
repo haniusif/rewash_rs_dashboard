@@ -15,7 +15,7 @@ return new class extends Migration
       $table->id();
 
       $table->unsignedBigInteger('order_id');
-      $table->unsignedBigInteger('service_id');
+      $table->unsignedBigInteger('rsa_service_id');
       $table->integer('quantity')->default(1);
       $table->decimal('service_price', 10, 2)->default(0); // Unit price
       $table->decimal('total_price', 10, 2)->default(0);   // quantity * unit
@@ -24,7 +24,7 @@ return new class extends Migration
 
       // Foreign Keys
       $table->foreign('order_id')->references('id')->on('orders')->onDelete('cascade');
-      $table->foreign('service_id')->references('id')->on('services')->onDelete('cascade');
+      $table->foreign('rsa_service_id')->references('id')->on('rsa_services')->onDelete('cascade');
     });
   }
 
