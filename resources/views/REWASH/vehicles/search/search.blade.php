@@ -14,6 +14,14 @@
                                             </div>
 
                                           <div class="col-12 col-sm-6 col-lg-3">
+                                                <label for="vehicles-list-user_type">{{ __('vehicles_user_type') }}</label>
+                                                <fieldset class="form-group">
+                                                    <input class="form-control" name="user_type" value="{{ request()->user_type }}"  type="text" placeholder="{{ __('vehicles_user_type') }}"  />
+
+                                                </fieldset>
+                                            </div>
+
+                                          <div class="col-12 col-sm-6 col-lg-3">
                                                 <label for="vehicles-list-branch_id">{{ __('vehicles_branch_id') }}</label>
                                                 <fieldset class="form-group">
                                                     <input class="form-control" name="branch_id" type="number" value="{{ request()->branch_id }}"  placeholder="{{ __('vehicles_branch_id') }}"  />

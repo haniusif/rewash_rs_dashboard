@@ -79,6 +79,7 @@
                                 <th>#</th>
 
 <th  >{{ __('vehicles_id') }}</th>
+<th  >{{ __('vehicles_user_type') }}</th>
 <th  >{{ __('vehicles_branch_id') }}</th>
 <th  >{{ __('vehicles_user_id') }}</th>
 <th  >{{ __('vehicles_vehicle_name') }}</th>
@@ -98,6 +99,7 @@
             <td>{{ $vehicle->firstItem + $key + 1 }}</td>
             
 <td>{{ $vehicle->id }}</td>
+<td>{{ $vehicle->user_type }}</td>
 <td>{{ $vehicle->branch_id }}</td>
 <td>{{ $vehicle->user_id }}</td>
 <td>{{ $vehicle->vehicle_name }}</td>
@@ -126,7 +128,7 @@
  @endforeach
    </tbody>
         <tfoot>
-       <tr><td      colspan="13"  >{{$vehicles->links("pagination::bootstrap-4")}} </td></tr>
+       <tr><td      colspan="14"  >{{$vehicles->links("pagination::bootstrap-4")}} </td></tr>
         </tfoot>
 </table>
                                     </div>
@@ -135,4 +137,4 @@
                         </div>
                     </div>
                    @stop
-                        
+                          

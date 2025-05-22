@@ -10,655 +10,703 @@
     {
       "url": "/accountings",
       "name": "Accountings",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "accountings.index"
     },
     {
       "url": "/activity_logs",
       "name": "Activity logs",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "activity_logs.index"
     },
     {
       "url": "/additional_services",
       "name": "Additional services",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "additional_services.index"
     },
     {
       "url": "/advertisements",
       "name": "Advertisements",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "advertisements.index"
     },
     {
       "url": "/all_appointments",
       "name": "All appointments",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "all_appointments.index"
     },
     {
       "url": "/app_open_logs",
       "name": "App open logs",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "app_open_logs.index"
     },
     {
       "url": "/appointment_additional_services",
       "name": "Appointment additional services",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "appointment_additional_services.index"
     },
     {
       "url": "/appointment_bills",
       "name": "Appointment bills",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "appointment_bills.index"
     },
     {
       "url": "/appointment_messages",
       "name": "Appointment messages",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "appointment_messages.index"
     },
     {
       "url": "/appointment_offers",
       "name": "Appointment offers",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "appointment_offers.index"
     },
     {
       "url": "/appointment_schedule_images",
       "name": "Appointment schedule images",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "appointment_schedule_images.index"
     },
     {
       "url": "/appointment_schedule_statuses",
       "name": "Appointment schedule statuses",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "appointment_schedule_statuses.index"
     },
     {
       "url": "/appointment_schedule_terms",
       "name": "Appointment schedule terms",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "appointment_schedule_terms.index"
     },
     {
       "url": "/appointment_schedules",
       "name": "Appointment schedules",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "appointment_schedules.index"
     },
     {
       "url": "/appointment_users",
       "name": "Appointment users",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "appointment_users.index"
     },
     {
       "url": "/appointments",
       "name": "Appointments",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "appointments.index"
     },
     {
       "url": "/b2b_shifts",
       "name": "B2b shifts",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "b2b_shifts.index"
     },
     {
       "url": "/branch_zones",
       "name": "Branch zones",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "branch_zones.index"
     },
     {
       "url": "/branches",
       "name": "Branches",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "branches.index"
     },
     {
       "url": "/business_settings",
       "name": "Business settings",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "business_settings.index"
     },
     {
       "url": "/cities",
       "name": "Cities",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "cities.index"
     },
     {
       "url": "/city_zones",
       "name": "City zones",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "city_zones.index"
     },
     {
       "url": "/clients",
       "name": "Clients",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "clients.index"
     },
     {
       "url": "/commissions",
       "name": "Commissions",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "commissions.index"
     },
     {
       "url": "/company_vehicles",
       "name": "Company vehicles",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "company_vehicles.index"
     },
     {
       "url": "/contacts",
       "name": "Contacts",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "contacts.index"
     },
     {
       "url": "/customer_suggestions",
       "name": "Customer suggestions",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "customer_suggestions.index"
     },
     {
       "url": "/dashboard_notifications",
       "name": "Dashboard notifications",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "dashboard_notifications.index"
     },
     {
       "url": "/dispatch_order_details",
       "name": "Dispatch order details",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "dispatch_order_details.index"
     },
     {
       "url": "/dispatch_orders",
       "name": "Dispatch orders",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "dispatch_orders.index"
     },
     {
       "url": "/general_statuses",
       "name": "General statuses",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "general_statuses.index"
     },
     {
       "url": "/gift_appointment_additional_services",
       "name": "Gift appointment additional services",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "gift_appointment_additional_services.index"
     },
     {
       "url": "/gift_appointment_schedules",
       "name": "Gift appointment schedules",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "gift_appointment_schedules.index"
     },
     {
       "url": "/loyalty_point_redeems",
       "name": "Loyalty point redeems",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "loyalty_point_redeems.index"
     },
     {
       "url": "/loyalty_points",
       "name": "Loyalty points",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "loyalty_points.index"
     },
     {
       "url": "/map_places",
       "name": "Map places",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "map_places.index"
     },
     {
       "url": "/material_additional_services",
       "name": "Material additional services",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "material_additional_services.index"
     },
     {
       "url": "/material_request_statuses",
       "name": "Material request statuses",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "material_request_statuses.index"
     },
     {
       "url": "/material_requests",
       "name": "Material requests",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "material_requests.index"
     },
     {
       "url": "/mismarapp_appointments",
       "name": "Mismarapp appointments",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "mismarapp_appointments.index"
     },
     {
       "url": "/mismarapp_statuses",
       "name": "Mismarapp statuses",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "mismarapp_statuses.index"
     },
     {
       "url": "/model_has_permissions",
       "name": "Model has permissions",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "model_has_permissions.index"
     },
     {
       "url": "/model_has_roles",
       "name": "Model has roles",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "model_has_roles.index"
     },
     {
       "url": "/modules",
       "name": "Modules",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "modules.index"
     },
     {
       "url": "/neighborhoods",
       "name": "Neighborhoods",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "neighborhoods.index"
     },
     {
       "url": "/newsletters",
       "name": "Newsletters",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "newsletters.index"
     },
     {
       "url": "/not_paid_orders",
       "name": "Not paid orders",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "not_paid_orders.index"
     },
     {
       "url": "/notification_types",
       "name": "Notification types",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "notification_types.index"
     },
     {
       "url": "/notifications",
       "name": "Notifications",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "notifications.index"
     },
     {
       "url": "/opening_hours",
       "name": "Opening hours",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "opening_hours.index"
+    },
+    {
+      "url": "/order_details",
+      "name": "Order details",
+      "icon": "menu-icon tf-icons ti ti-cube",
+      "slug": "order_details.index"
+    },
+    {
+      "url": "/order_statuses",
+      "name": "Order statuses",
+      "icon": "menu-icon tf-icons ti ti-cube",
+      "slug": "order_statuses.index"
+    },
+    {
+      "url": "/orders",
+      "name": "Orders",
+      "icon": "menu-icon tf-icons ti ti-cube",
+      "slug": "orders.index"
     },
     {
       "url": "/paid_orders",
       "name": "Paid orders",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "paid_orders.index"
     },
     {
       "url": "/payment_modes",
       "name": "Payment modes",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "payment_modes.index"
     },
     {
       "url": "/payment_statuses",
       "name": "Payment statuses",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "payment_statuses.index"
     },
     {
       "url": "/permissions",
       "name": "Permissions",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "permissions.index"
     },
     {
       "url": "/platform_groups",
       "name": "Platform groups",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "platform_groups.index"
     },
     {
       "url": "/platforms",
       "name": "Platforms",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "platforms.index"
     },
     {
       "url": "/popups",
       "name": "Popups",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "popups.index"
     },
     {
       "url": "/product_categories",
       "name": "Product categories",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "product_categories.index"
     },
     {
       "url": "/product_units",
       "name": "Product units",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "product_units.index"
     },
     {
       "url": "/products",
       "name": "Products",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "products.index"
     },
     {
       "url": "/promo_code_cashbacks",
       "name": "Promo code cashbacks",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "promo_code_cashbacks.index"
     },
     {
       "url": "/promo_codes",
       "name": "Promo codes",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "promo_codes.index"
+    },
+    {
+      "url": "/providers",
+      "name": "Providers",
+      "icon": "menu-icon tf-icons ti ti-cube",
+      "slug": "providers.index"
     },
     {
       "url": "/rates",
       "name": "Rates",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "rates.index"
     },
     {
       "url": "/referral_codes",
       "name": "Referral codes",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "referral_codes.index"
     },
     {
       "url": "/referred_code_usages",
       "name": "Referred code usages",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "referred_code_usages.index"
     },
     {
       "url": "/role_has_permissions",
       "name": "Role has permissions",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "role_has_permissions.index"
     },
     {
       "url": "/roles",
       "name": "Roles",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "roles.index"
+    },
+    {
+      "url": "/rsa_advertisements",
+      "name": "Rsa advertisements",
+      "icon": "menu-icon tf-icons ti ti-cube",
+      "slug": "rsa_advertisements.index"
+    },
+    {
+      "url": "/rsa_best_offers",
+      "name": "Rsa best offers",
+      "icon": "menu-icon tf-icons ti ti-cube",
+      "slug": "rsa_best_offers.index"
+    },
+    {
+      "url": "/rsa_services",
+      "name": "Rsa services",
+      "icon": "menu-icon tf-icons ti ti-cube",
+      "slug": "rsa_services.index"
     },
     {
       "url": "/scheduled_fcm_notifications",
       "name": "Scheduled fcm notifications",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "scheduled_fcm_notifications.index"
     },
     {
       "url": "/scheduled_notifications",
       "name": "Scheduled notifications",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "scheduled_notifications.index"
+    },
+    {
+      "url": "/service_categories",
+      "name": "Service categories",
+      "icon": "menu-icon tf-icons ti ti-cube",
+      "slug": "service_categories.index"
     },
     {
       "url": "/services",
       "name": "Services",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "services.index"
     },
     {
       "url": "/slots",
       "name": "Slots",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "slots.index"
     },
     {
       "url": "/social_teams",
       "name": "Social teams",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "social_teams.index"
     },
     {
       "url": "/statuses",
       "name": "Statuses",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "statuses.index"
     },
     {
       "url": "/stocks",
       "name": "Stocks",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "stocks.index"
     },
     {
       "url": "/support_message_comments",
       "name": "Support message comments",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "support_message_comments.index"
     },
     {
       "url": "/support_messages",
       "name": "Support messages",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "support_messages.index"
     },
     {
       "url": "/task_statuses",
       "name": "Task statuses",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "task_statuses.index"
     },
     {
       "url": "/team_neighborhoods",
       "name": "Team neighborhoods",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "team_neighborhoods.index"
     },
     {
       "url": "/team_tasks",
       "name": "Team tasks",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "team_tasks.index"
     },
     {
       "url": "/team_vacations",
       "name": "Team vacations",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "team_vacations.index"
     },
     {
       "url": "/team_vehicles",
       "name": "Team vehicles",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "team_vehicles.index"
     },
     {
       "url": "/team_zones",
       "name": "Team zones",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "team_zones.index"
     },
     {
       "url": "/temp_rewash_users",
       "name": "Temp rewash users",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "temp_rewash_users.index"
     },
     {
       "url": "/testimonials",
       "name": "Testimonials",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "testimonials.index"
     },
     {
       "url": "/time_frames",
       "name": "Time frames",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "time_frames.index"
     },
     {
       "url": "/user_addresses",
       "name": "User addresses",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "user_addresses.index"
     },
     {
       "url": "/user_apps_appointments",
       "name": "User apps appointments",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "user_apps_appointments.index"
     },
     {
       "url": "/user_loyalty_points",
       "name": "User loyalty points",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "user_loyalty_points.index"
     },
     {
       "url": "/user_permissions",
       "name": "User permissions",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "user_permissions.index"
     },
     {
       "url": "/user_wallet_transactions",
       "name": "User wallet transactions",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "user_wallet_transactions.index"
     },
     {
       "url": "/user_zones",
       "name": "User zones",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "user_zones.index"
     },
     {
       "url": "/users",
       "name": "Users",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "users.index"
     },
     {
       "url": "/vehicle_colors",
       "name": "Vehicle colors",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "vehicle_colors.index"
     },
     {
       "url": "/vehicle_companies",
       "name": "Vehicle companies",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "vehicle_companies.index"
     },
     {
       "url": "/vehicle_modals",
       "name": "Vehicle modals",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "vehicle_modals.index"
     },
     {
       "url": "/vehicle_types",
       "name": "Vehicle types",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "vehicle_types.index"
     },
     {
       "url": "/vehicles",
       "name": "Vehicles",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "vehicles.index"
     },
     {
       "url": "/washing_plan_includes",
       "name": "Washing plan includes",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "washing_plan_includes.index"
     },
     {
       "url": "/washing_plan_services",
       "name": "Washing plan services",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "washing_plan_services.index"
     },
     {
       "url": "/washing_plan_types",
       "name": "Washing plan types",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "washing_plan_types.index"
     },
     {
       "url": "/washing_plans",
       "name": "Washing plans",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "washing_plans.index"
     },
     {
       "url": "/washing_prices",
       "name": "Washing prices",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "washing_prices.index"
     },
     {
       "url": "/web_appointments",
       "name": "Web appointments",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "web_appointments.index"
     },
     {
       "url": "/whatsapp_messages",
       "name": "Whatsapp messages",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "whatsapp_messages.index"
     },
     {
       "url": "/work_hours",
       "name": "Work hours",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "work_hours.index"
     },
     {
       "url": "/worker_help_requests",
       "name": "Worker help requests",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "worker_help_requests.index"
     },
     {
       "url": "/worker_help_subjects",
       "name": "Worker help subjects",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "worker_help_subjects.index"
     },
     {
       "url": "/worker_notifications",
       "name": "Worker notifications",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "worker_notifications.index"
     },
     {
       "url": "/worker_statuses",
       "name": "Worker statuses",
-      "icon": "menu-icon tf-icons ti ti-user",
+      "icon": "menu-icon tf-icons ti ti-cube",
       "slug": "worker_statuses.index"
     },
     {

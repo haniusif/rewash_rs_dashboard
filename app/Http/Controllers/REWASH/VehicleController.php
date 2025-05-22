@@ -36,6 +36,11 @@ $vehicles = \App\Models\REWASH\Vehicle::get();
                }
 
                 
+  if(isset($data['user_type']) &&  $data['user_type'] != null ){
+                   $query->where('user_type' , 'like'  , '%' .$data['user_type']. '%' );   
+               }
+
+                
   if(isset($data['branch_id']) &&  $data['branch_id'] != null ){
                    $query->where('branch_id' , 'like'  , '%' .$data['branch_id']. '%' );   
                }
@@ -125,6 +130,8 @@ return view('REWASH.vehicles.vehicles')
 
 
 
+       'user_type' => 'required',
+
        'branch_id' => 'required',
 
        'user_id' => 'required',
@@ -144,7 +151,8 @@ return view('REWASH.vehicles.vehicles')
        'is_deleted' => 'required',]);
     $vehicle = new Vehicle ();
 
-         $vehicle->branch_id = $request->branch_id;
+         $vehicle->user_type = $request->user_type;
+  $vehicle->branch_id = $request->branch_id;
   $vehicle->user_id = $request->user_id;
   $vehicle->vehicle_name = $request->vehicle_name;
   $vehicle->vehicle_color_id = $request->vehicle_color_id;
@@ -202,7 +210,8 @@ return back();
 
       $vehicle = Vehicle::find($id); 
 
-      $vehicle->branch_id = $request->branch_id;
+      $vehicle->user_type = $request->user_type;
+  $vehicle->branch_id = $request->branch_id;
   $vehicle->user_id = $request->user_id;
   $vehicle->vehicle_name = $request->vehicle_name;
   $vehicle->vehicle_color_id = $request->vehicle_color_id;

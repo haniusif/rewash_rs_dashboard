@@ -58,6 +58,31 @@
            <div class="col-12 mb-3">
                                                         <div class="form-group row">
                                                             <div class="col-md-4">
+                                                                <span>{{ __('vehicles_user_type') }}</span>
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="position-relative has-icon-left">
+                                                                    <input  data-toggle="popover" value="{{ old("user_type" , $vehicle->user_type)  }}" data-placement="left"  data-content="{{ __('vehicles_user_type_data-content') }}" data-trigger="hover"  data-original-title="{{ __('vehicles_user_type_data-original-title') }}"
+                                                                     type="text"   class="form-control {{ $errors->has('user_type') ? 'is-invalid' : '' }}" name="user_type" placeholder="{{ __('vehicles_user_type') }}">
+                                                                    <div class="form-control-position">
+                                                                        <i class="feather icon-file-minus"></i>
+                                                                    </div>
+
+                                                                    @if ($errors->has('user_type'))
+                                                                    <div class="invalid-feedback">
+                                                                    {{ $errors->first('user_type') }}
+                                                </div>
+                                                @endif
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+
+           <div class="col-12 mb-3">
+                                                        <div class="form-group row">
+                                                            <div class="col-md-4">
                                                                 <span>{{ __('vehicles_branch_id') }}</span>
                                                             </div>
                                                             <div class="col-md-8">

@@ -14,6 +14,7 @@ class Service_category extends Model
     'en_name',
     'image',
     'short_description',
+    'en_short_description',
     'is_active',
     'sorting',
   ];

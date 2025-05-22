@@ -21,13 +21,13 @@
             </li>
             <li class="breadcrumb-item"><a href="{{ route('gift_appointment_additional_services.index') }}">{{ __('Gift_appointment_additional_services') }}</a>
             </li>
-            <li class="breadcrumb-item active"> {{ $gaas->id }}
+            <li class="breadcrumb-item active"> {{ $gift_appointment_additional_service->id }}
             </li>
         </ol>
     </div>
     @include('_partials.alerts')
     <section>
-        <form class="form-horizontal" role="form" method="POST" action="{{ route('gift_appointment_additional_services.update' , $gaas->id ) }}"
+        <form class="form-horizontal" role="form" method="POST" action="{{ route('gift_appointment_additional_services.update' , $gift_appointment_additional_service->id ) }}"
             enctype="multipart/form-data" novalidate>
             @csrf
             @method('PUT')
@@ -62,7 +62,7 @@
                                                             </div>
                                                             <div class="col-md-8">
                                                                 <div class="position-relative has-icon-left">
-                                                                    <input  data-toggle="popover" value="{{ old("branch_id" , $gaas->branch_id)  }}" data-placement="left"  data-content="{{ __('gift_appointment_additional_services_branch_id_data-content') }}" data-trigger="hover"  data-original-title="{{ __('gift_appointment_additional_services_branch_id_data-original-title') }}"
+                                                                    <input  data-toggle="popover" value="{{ old("branch_id" , $gift_appointment_additional_service->branch_id)  }}" data-placement="left"  data-content="{{ __('gift_appointment_additional_services_branch_id_data-content') }}" data-trigger="hover"  data-original-title="{{ __('gift_appointment_additional_services_branch_id_data-original-title') }}"
                                                                      type="number"   class="form-control {{ $errors->has('branch_id') ? 'is-invalid' : '' }}" name="branch_id" placeholder="{{ __('gift_appointment_additional_services_branch_id') }}">
                                                                     <div class="form-control-position">
                                                                         <i class="feather icon-file-minus"></i>
@@ -87,7 +87,7 @@
                                                             </div>
                                                             <div class="col-md-8">
                                                                 <div class="position-relative has-icon-left">
-                                                                    <input  data-toggle="popover" value="{{ old("gift_appointment_id" , $gaas->gift_appointment_id)  }}" data-placement="left"  data-content="{{ __('gift_appointment_additional_services_gift_appointment_id_data-content') }}" data-trigger="hover"  data-original-title="{{ __('gift_appointment_additional_services_gift_appointment_id_data-original-title') }}"
+                                                                    <input  data-toggle="popover" value="{{ old("gift_appointment_id" , $gift_appointment_additional_service->gift_appointment_id)  }}" data-placement="left"  data-content="{{ __('gift_appointment_additional_services_gift_appointment_id_data-content') }}" data-trigger="hover"  data-original-title="{{ __('gift_appointment_additional_services_gift_appointment_id_data-original-title') }}"
                                                                      type="number"   class="form-control {{ $errors->has('gift_appointment_id') ? 'is-invalid' : '' }}" name="gift_appointment_id" placeholder="{{ __('gift_appointment_additional_services_gift_appointment_id') }}">
                                                                     <div class="form-control-position">
                                                                         <i class="feather icon-file-minus"></i>
@@ -112,7 +112,7 @@
                                                             </div>
                                                             <div class="col-md-8">
                                                                 <div class="position-relative has-icon-left">
-                                                                    <input  data-toggle="popover" value="{{ old("additional_service_id" , $gaas->additional_service_id)  }}" data-placement="left"  data-content="{{ __('gift_appointment_additional_services_additional_service_id_data-content') }}" data-trigger="hover"  data-original-title="{{ __('gift_appointment_additional_services_additional_service_id_data-original-title') }}"
+                                                                    <input  data-toggle="popover" value="{{ old("additional_service_id" , $gift_appointment_additional_service->additional_service_id)  }}" data-placement="left"  data-content="{{ __('gift_appointment_additional_services_additional_service_id_data-content') }}" data-trigger="hover"  data-original-title="{{ __('gift_appointment_additional_services_additional_service_id_data-original-title') }}"
                                                                      type="number"   class="form-control {{ $errors->has('additional_service_id') ? 'is-invalid' : '' }}" name="additional_service_id" placeholder="{{ __('gift_appointment_additional_services_additional_service_id') }}">
                                                                     <div class="form-control-position">
                                                                         <i class="feather icon-file-minus"></i>
@@ -137,7 +137,7 @@
                                                             </div>
                                                             <div class="col-md-8">
                                                                 <div class="position-relative has-icon-left">
-                                                                    <input  data-toggle="popover" value="{{ old("additional_service_price" , $gaas->additional_service_price)  }}" data-placement="left"  data-content="{{ __('gift_appointment_additional_services_additional_service_price_data-content') }}" data-trigger="hover"  data-original-title="{{ __('gift_appointment_additional_services_additional_service_price_data-original-title') }}"
+                                                                    <input  data-toggle="popover" value="{{ old("additional_service_price" , $gift_appointment_additional_service->additional_service_price)  }}" data-placement="left"  data-content="{{ __('gift_appointment_additional_services_additional_service_price_data-content') }}" data-trigger="hover"  data-original-title="{{ __('gift_appointment_additional_services_additional_service_price_data-original-title') }}"
                                                                      type="number"   class="form-control {{ $errors->has('additional_service_price') ? 'is-invalid' : '' }}" name="additional_service_price" placeholder="{{ __('gift_appointment_additional_services_additional_service_price') }}">
                                                                     <div class="form-control-position">
                                                                         <i class="feather icon-file-minus"></i>
@@ -162,7 +162,7 @@
                                                             </div>
                                                             <div class="col-md-8">
                                                                 <div class="position-relative has-icon-left">
-                                                                    <input  data-toggle="popover" value="{{ old("quantity" , $gaas->quantity)  }}" data-placement="left"  data-content="{{ __('gift_appointment_additional_services_quantity_data-content') }}" data-trigger="hover"  data-original-title="{{ __('gift_appointment_additional_services_quantity_data-original-title') }}"
+                                                                    <input  data-toggle="popover" value="{{ old("quantity" , $gift_appointment_additional_service->quantity)  }}" data-placement="left"  data-content="{{ __('gift_appointment_additional_services_quantity_data-content') }}" data-trigger="hover"  data-original-title="{{ __('gift_appointment_additional_services_quantity_data-original-title') }}"
                                                                      type="number"   class="form-control {{ $errors->has('quantity') ? 'is-invalid' : '' }}" name="quantity" placeholder="{{ __('gift_appointment_additional_services_quantity') }}">
                                                                     <div class="form-control-position">
                                                                         <i class="feather icon-file-minus"></i>
@@ -187,7 +187,7 @@
                                                             </div>
                                                             <div class="col-md-8">
                                                                 <div class="position-relative has-icon-left">
-                                                                    <input  data-toggle="popover" value="{{ old("total_price" , $gaas->total_price)  }}" data-placement="left"  data-content="{{ __('gift_appointment_additional_services_total_price_data-content') }}" data-trigger="hover"  data-original-title="{{ __('gift_appointment_additional_services_total_price_data-original-title') }}"
+                                                                    <input  data-toggle="popover" value="{{ old("total_price" , $gift_appointment_additional_service->total_price)  }}" data-placement="left"  data-content="{{ __('gift_appointment_additional_services_total_price_data-content') }}" data-trigger="hover"  data-original-title="{{ __('gift_appointment_additional_services_total_price_data-original-title') }}"
                                                                      type="number"   class="form-control {{ $errors->has('total_price') ? 'is-invalid' : '' }}" name="total_price" placeholder="{{ __('gift_appointment_additional_services_total_price') }}">
                                                                     <div class="form-control-position">
                                                                         <i class="feather icon-file-minus"></i>

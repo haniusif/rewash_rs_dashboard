@@ -90,25 +90,25 @@
     </tr>
      </thead>
           <tbody>
-          @foreach ($gaass as $key => $gaas)
+          @foreach ($gift_appointment_additional_services as $key => $gift_appointment_additional_service)
             <tr>
-            <td>{{ $gaas->firstItem + $key + 1 }}</td>
-
-<td>{{ $gaas->id }}</td>
-<td>{{ $gaas->branch_id }}</td>
-<td>{{ $gaas->gift_appointment_id }}</td>
-<td>{{ $gaas->additional_service_id }}</td>
-<td>{{ $gaas->additional_service_price }}</td>
-<td>{{ $gaas->quantity }}</td>
-<td>{{ $gaas->total_price }}</td>
-<td>{{ $gaas->created_at }}</td>
-<td>{{ $gaas->updated_at }}</td>         <td>
-           <a href="{{ route('gift_appointment_additional_services.show', $gaas->id) }}"
+            <td>{{ $gift_appointment_additional_service->firstItem + $key + 1 }}</td>
+            
+<td>{{ $gift_appointment_additional_service->id }}</td>
+<td>{{ $gift_appointment_additional_service->branch_id }}</td>
+<td>{{ $gift_appointment_additional_service->gift_appointment_id }}</td>
+<td>{{ $gift_appointment_additional_service->additional_service_id }}</td>
+<td>{{ $gift_appointment_additional_service->additional_service_price }}</td>
+<td>{{ $gift_appointment_additional_service->quantity }}</td>
+<td>{{ $gift_appointment_additional_service->total_price }}</td>
+<td>{{ $gift_appointment_additional_service->created_at }}</td>
+<td>{{ $gift_appointment_additional_service->updated_at }}</td>         <td>
+           <a href="{{ route('gift_appointment_additional_services.show', $gift_appointment_additional_service->id) }}"
                                                     class="btn btn-success mr-1 mb-1 btn-sm"><i
                                                         class="ti ti-eye"></i></a>
-            <button value="{{  $gaas->id }}" class="btn btn-danger mr-1 mb-1 btn-sm "  onclick="showConfirmation(this)"   ><i class="ti ti-trash"></i></button>
-                                                <form id="destroy-gift_appointment_additional_service_{{  $gaas->id }}"
-                                                    action="{{ route('gift_appointment_additional_services.destroy', $gaas->id) }}" method="POST"
+            <button value="{{  $gift_appointment_additional_service->id }}" class="btn btn-danger mr-1 mb-1 btn-sm "  onclick="showConfirmation(this)"   ><i class="ti ti-trash"></i></button>
+                                                <form id="destroy-gift_appointment_additional_service_{{  $gift_appointment_additional_service->id }}"
+                                                    action="{{ route('gift_appointment_additional_services.destroy', $gift_appointment_additional_service->id) }}" method="POST"
                                                     style="display: none;">
                                                     @method('DELETE')
                                                     @csrf
@@ -118,7 +118,7 @@
  @endforeach
    </tbody>
         <tfoot>
-       <tr><td      colspan="10"  >{{$gaass->links("pagination::bootstrap-4")}} </td></tr>
+       <tr><td      colspan="10"  >{{$gift_appointment_additional_services->links("pagination::bootstrap-4")}} </td></tr>
         </tfoot>
 </table>
                                     </div>
@@ -127,4 +127,4 @@
                         </div>
                     </div>
                    @stop
-
+                  
